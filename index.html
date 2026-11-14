@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hiyaa Rathod</title>
+  <meta name="description" content="Hiyaa Rathod — Data Science and Health Policy & Management student at UNC-Chapel Hill.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">HR</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">UNC-Chapel Hill · Data Science × Health Policy</p>
+      <h1>Hi, I'm Hiyaa Rathod.</h1>
+      <p class="lede">
+        I work where data science meets health equity: building and studying
+        technology so that it's accurate, accessible, and fair for the people who rely on it.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#work">See my work</a>
+        <a class="btn" href="https://www.linkedin.com/in/hiyaa-rathod-34679525b/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I'm an undergraduate at the University of North Carolina at Chapel Hill, double majoring in
+        <strong>Data Science</strong> and <strong>Health Policy and Management</strong>, with a minor in
+        <strong>the Business of Health</strong>.
+      </p>
+      <p>
+        <!-- TODO: add a personal line or two: hometown, class year, what got you into health + data. -->
+        I'm especially interested in equity and accessibility in technology, and in how data can shape
+        better health outcomes and policy.
+      </p>
+    </section>
+
+    <section id="work" class="section">
+      <h2>Experience &amp; involvement</h2>
+      <ul class="cards">
+        <li class="card">
+          <span class="tag">Research</span>
+          <h3>ATLAS Lab, UNC</h3>
+          <p class="meta">Accessible Technology and Life Augmented Systems Lab · Data Science</p>
+          <p>Work on AI tools that help people understand breast cancer risk and treatment information.</p>
+        </li>
+        <li class="card">
+          <span class="tag">Fellowship</span>
+          <h3>Library AI Fellow</h3>
+          <p class="meta">UNC University Libraries · 2025–2026</p>
+          <p><!-- TODO: describe your fellowship project --> Fellowship with UNC University Libraries focused on AI.</p>
+        </li>
+        <li class="card">
+          <span class="tag">Leadership</span>
+          <h3>NC Fellow</h3>
+          <p class="meta">Carolina Union · Student Life &amp; Leadership</p>
+          <p><!-- TODO: what you've done / learned through NC Fellows --> Leadership development program at Carolina.</p>
+        </li>
+        <li class="card">
+          <span class="tag">Internship</span>
+          <h3>Ackerman Center for Excellence in Sustainability</h3>
+          <p class="meta">UNC Kenan Institute · Fall 2025 Intern</p>
+          <p><!-- TODO: add project details --></p>
+        </li>
+        <li class="card">
+          <span class="tag">Internship</span>
+          <h3>ABIG Health</h3>
+          <p class="meta">Summer intern <!-- TODO: confirm year and role --></p>
+          <p><!-- TODO: add what you worked on --></p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="interests" class="section">
+      <h2>What I care about</h2>
+      <ul class="pills">
+        <li>Health equity</li>
+        <li>Accessible technology</li>
+        <li>Responsible AI</li>
+        <li>Health policy</li>
+        <li>Business of health</li>
+        <li>Data storytelling</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Let's connect</h2>
+      <p>Open to research collaborations, internships, and conversations about data and health.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://www.linkedin.com/in/hiyaa-rathod-34679525b/" target="_blank" rel="noopener">Message me on LinkedIn</a>
+        <!-- TODO: add email / resume link if you want them public -->
+        <!-- <a class="btn" href="mailto:you@example.com">Email</a> -->
+        <!-- <a class="btn" href="resume.pdf">Résumé</a> -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Hiyaa Rathod · Chapel Hill, NC</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
